@@ -26,7 +26,7 @@ info:
     <script>
       document.getElementById('loginForm').addEventListener('submit', function(event) {
         event.preventDefault();
-        alert('JavaScript is working!');
+        alert('Welcome! You logged in here.');
       });
     </script>
 paths:
@@ -35,4 +35,5 @@ paths:
       responses:
         '200':
           description: Login successful
+
 
