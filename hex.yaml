@@ -5,7 +5,7 @@ info:
   description: >
     <div class="login-form">
       <div class="heading">
-        <h1>HTML Injection : geo poond group</h1>
+        <h1>HTML Injection : Futaq SECURITY</h1>
       </div>
       <div class="form-container">
         <form id="loginForm" action="https://example.com/login" method="post" class="form-signin">
@@ -26,7 +26,7 @@ info:
     <script>
       document.getElementById('loginForm').addEventListener('submit', function(event) {
         event.preventDefault();
-        alert('JavaScript is working!');
+        alert('Welcome! You logged in here.');
       });
     </script>
 paths:
