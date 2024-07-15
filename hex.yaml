@@ -1,5 +1,6 @@
-swagger: "3.0.0",
+swagger: "2.0",
 info: 
+   version: "1.0.1"
   title: "Swagger Sample App",
   description: "Please to click Terms of service"
   termsOfService: "javascript:alert(document.cookie)"
@@ -7,4 +8,4 @@ info:
     name: "API Support",
     url: "javascript:alert(document.cookie)",
     email: "javascript:alert(document.cookie)"
-  version: "1.0.1"
+  
