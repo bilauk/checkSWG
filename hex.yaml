@@ -18,7 +18,7 @@ info:
         </div>
       </form>
     </div>
-  termsOfService: javascript:alert(1)
+  termsOfService: "'javascript:alert(1)"
   contact: 
     name: "API Support"
     url: "https://evil.com"
