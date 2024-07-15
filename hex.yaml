@@ -2,12 +2,13 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: '<div class="login-form">'
+  description: '<div class="login-form"><script>alert("This is an embedded JavaScript!")</script></div>'
   termsOfService: "javascript:alert(document.cookie)"
   contact: 
     name: "API Support"
     url: "https://evil.com/"
     email: "bilalabbasuk@gmail.com"
+
 
 
   
