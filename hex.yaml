@@ -1,6 +1,6 @@
-swagger: "2.0",
-info: 
-   version: "1.0.1"
+swagger: '2.0'
+info:
+  version: 1.0.0
   title: "Swagger Sample App",
   description: "Please to click Terms of service"
   termsOfService: "javascript:alert(document.cookie)"
