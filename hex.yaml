@@ -22,9 +22,14 @@ info:
     https://bonanzasatrangi.com/collections/unstitched/%3Cscript%20src=data:text/html,alert(document.cookie)%3E%3C/script%3E
   contact: 
     name: "API Support apy"
-    name: "phull sappot test"
     url: "https://attacker.com/"
     email: "bilalabbasuk@gmail.com"
+  license:
+    name: "MIT"
+    url: "https://opensource.org/licenses/MIT"
+  externalDocs:
+    description: "Find more info here"
+    url: "https://example.com"
 paths:
   /:
     post:
