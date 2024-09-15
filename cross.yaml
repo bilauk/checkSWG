@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6>&lt;mglyph&gt;<svg><mtext><textarea><path id="</textarea><script> alert(document.domain)</script>"></form></h1>">"</textarea></desc></textarea></mtext></mtext></svg>&lt;/mglyph&gt;</option></mtext></math>
+  description: <math><mtext><h1><a><h6></a></h6><math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">;</option></mtext></math>
   version: production
