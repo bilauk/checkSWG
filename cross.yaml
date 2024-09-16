@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea>perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
+  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea><svg/on<script>load=prompt(document.domain);>”/>
 
   version: production
