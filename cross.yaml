@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="</textarea><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg" onerror %09=alert>>">
+  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="</textarea><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg" onload="alert('Image loaded!')">>">
   version: production
