@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea><img src="javascript:alert('Executed!')"></textarea>
+  description: <math><mtext><h1><a><h6></a></h6><textarea id="myTextArea" oninput="eval(this.value)"></textarea>
   version: production
