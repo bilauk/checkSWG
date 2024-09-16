@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea><svg/on <iframe src="https://joaxcar.com/hack.js"></iframe>
+  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea><a href="javas&Tab;cript:alert()">XSS</a>
   version: production
