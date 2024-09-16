@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea id="myTextArea" oninput="eval(this.value)"></textarea>
+  description: <math><mtext><h1><a><h6></a></h6><textarea id="myTextArea" oninput1="%6f%6e%69%6e%70%75%74%3d%65%76%61%6c%28%74%68%69%73%2e%76%61%6c%75%65%29"></textarea>
   version: production
