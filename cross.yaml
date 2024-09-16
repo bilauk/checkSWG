@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea id="myTextArea" -oninput1="%6f%6e%69%6e%70%75%74%3d%65%76%61%6c%28%74%68%69%73%2e%76%61%6c%75%65%29"></textarea>
+  description: <math><mtext><h1><a><h6></a></h6><textarea></textarea><a href="&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;">Click Me!</a>
   version: production
