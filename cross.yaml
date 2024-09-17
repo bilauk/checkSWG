@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="<img src="invalid.jpg" onerror="alert('Image loaded!')" />">
-  <img src onerror %09=top['ale'%2b'rt']()>
+  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="<img src onerror %09=top['ale'%2b'rt']()>">
+ 
 
                 
   version: production
