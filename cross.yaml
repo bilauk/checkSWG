@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="</textarea><img src onerror %09=top['javascript:alert('XSS')']()>>
+  description: <math><mtext><h1><a><h6></a></h6><textarea><a title="</textarea><img src onerror %09=top['<script>alert('XSS')</script>']()>>
   
  
 
