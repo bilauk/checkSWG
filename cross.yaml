@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <math><mtext><h1><a><h6></a></h6>&lt;ScriPT&gt;<img src="invalid.jpg" onerror %09=top['&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x27;&#x58;&#x53;&#x53;&#x27;&#x29]'>&lt;ScriPT&gt;
+  description: <math><mtext><h1><a><h6></a></h6>&lt;ScriPT&gt;<img src="/" onerror %09=top['&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x27;&#x58;&#x53;&#x53;&#x27;&#x29]'>&lt;ScriPT&gt;
                                               
   
  
