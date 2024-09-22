@@ -2,4 +2,5 @@ swagger: '2.0'
 info:
   title: XSS test
   description: <a href="https://www.reddit.com/r/QuotesPorn/comments/12sje6f/social_media_made_yall_way_too_comfortable_with">Click Me</a> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg" onload="alert('Image loaded!')">>">
   version: production
