@@ -1,5 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: <a href="<script>alert(8007)</script>">Click Me</a>
+  description: <a href="#" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-align: center; border-radius: 5px; text-decoration: none;">
+    Click Me
+</a> 
   version: production
