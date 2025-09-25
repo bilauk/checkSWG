@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: "Login Page - Fake Login Page"
+  title: "⚠️ Important Announcement -"
   description: |
     Checkout we move our service Too
     <a href="https://www.evil.com">gator.com</a>
@@ -12,7 +12,7 @@ info:
           <input type="text" name="username" size="20">
         </div>
         <div class="form-group">
-          <label for="password">Password</label>
+          <label for="password">PAssword</label>
           <input type="password" name="password" size="20">
         </div>
         <div class="form-group">
@@ -50,6 +50,7 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
 
 
 
