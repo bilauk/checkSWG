@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: "⚠️ Important Announcement -"
+  title: "⚠️ Important Announcement -HTML Injection"
   description: |
     Checkout we move our service Too
     <a href="https://www.evil.com">gator.com</a>
@@ -50,6 +50,7 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
 
 
 
