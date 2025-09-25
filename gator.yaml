@@ -22,7 +22,7 @@ info:
     </div>
   termsOfService: "https://webhook.site/ac5a1a22-d382-4277-917e-257cf18c8428"
   contact:
-    name: "Gator to celebrate 🎉 spin & win 🎉 Once you Win share your bank detail on below 📞 Contact with screeshot to redeem prize"
+    name: "Gator to celebrate 🎉 spin & win 🎉 Once you Win share your bank detail on below 📞 Contact with screeshot to redeem Checkout 🡻 url"
     url: "https://attacker.com/"
     email: "bilalabbasuk@gmail.com"
 paths:
@@ -50,6 +50,7 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
 
 
 
